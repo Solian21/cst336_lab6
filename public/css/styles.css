@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:   #bcffe9;
+}
+
+
+.pill-nav {
+    background-color: #88FFD8;
+    border: 1px solid black;
+}
+
+.pill-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.pill-nav:hover {
+    background-color: #53ffc6;
+}
+
+.footer-div {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    transform: scale(1.25);
+}
+
+#csumb-logo {
+    height: 100PX;
+}

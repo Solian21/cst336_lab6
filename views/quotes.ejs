@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/quotes-head') %>
+
+    <body>
+
+        <h1 class="text-center"> Famous Quotes </h1>
+
+        <div class="text-center">
+            <nav class="pill-nav rounded-pill d-inline-block px-3 py-1">
+                <a href="/">Home</a>
+            </nav>
+        </div>
+
+        <div class="container">
+
+            <% for (let i of rows) { %>
+                <i class="fs-5">
+                    <%= i.quote %>
+                </i><br>
+                <%= i.firstName %>
+                    <%= i.lastName %><br><br>
+                        <% } %>
+
+        </div>
+        <%- include('partials/footer') %>
+    </body>
+
+</html>
